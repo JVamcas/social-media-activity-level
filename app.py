@@ -44,7 +44,6 @@ def site_activity(url:str,result_key:str,result_dict:DictProxy):
             result_dict[result_key] = -1
 
     except Exception as ex:
-        print
         result_dict[result_key] = -1
 
     return result_dict
